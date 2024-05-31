@@ -8,9 +8,6 @@ let argv = require('minimist')(process.argv.slice(2),
       s: 'subpack', a: 'auto'
     }
   })
-
-console.log(argv)
-
 if (argv.h) {
   return console.log(`
 Example usage:
